@@ -17,6 +17,7 @@ enum ProxyType {
   vless("VLESS"),
   tuic("TUIC"),
   hysteria2("Hysteria2"),
+  zephyr("Zephyr"),
 
   selector("Selector"),
   urltest("URLTest"),
@@ -25,6 +26,7 @@ enum ProxyType {
   xvless("xVLESS"),
   xvmess("xVMess"),
   xtrojan("xTrojan"),
+  xzephyr("xZephyr"),
   xfreedom("xFragment"),
   xshadowsocks("xShadowsocks"),
   xsocks("xSocks"),

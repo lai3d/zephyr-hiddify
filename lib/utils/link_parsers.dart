@@ -54,6 +54,7 @@ abstract class LinkParser {
         'vmess' => ProxyType.vmess.label,
         'vless' => fragment ?? ProxyType.vless.label,
         'trojan' => fragment ?? ProxyType.trojan.label,
+        'zephyr' => fragment ?? ProxyType.zephyr.label,
         'tuic' => fragment ?? ProxyType.tuic.label,
         'hy2' || 'hysteria2' => fragment ?? ProxyType.hysteria2.label,
         'hy' || 'hysteria' => fragment ?? ProxyType.hysteria.label,
